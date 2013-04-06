@@ -7,7 +7,7 @@ A mockup of an app to facilitate data recording during excavation for archaeolog
 ## Working with Git
 ```
 git add .
-git commit -m"adsflkjads_fkjads"
+git commit -m"Insert useful commit message here"
 git status
 git fetch upstream
 git rebase upstream/master
