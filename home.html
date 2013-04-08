@@ -13,10 +13,10 @@
   <link rel="stylesheet" href="css/annie.css" />
   <link rel="stylesheet" href="css/murphy.css" />
 
-  <script src="js/vendor/custom.modernizr.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
-  <script type="text/javascript" src="js/spryMap-2.js"></script> 
+  <script src="js/polymaps.min.js"></script>
+  <script src="js/vendor/custom.modernizr.js"></script>
 
 </head>
 <body>
@@ -31,13 +31,11 @@
       <button class="indexButton medium button" onClick="parent.location='team_gallery.html'">View Teams</button>
       <button class="indexButton medium button" onClick="parent.location='artifact_list.html'">Artifact Search</button>
     </div>
-    <div class="large-10 columns">
-      <div id="map">
-        <iframe src=""></iframe>
-      </div>
+    <div class="large-10 columns" id="map">
+      <!-- <img id="map" src="img/map.jpg"/> -->
+      <script type="text/javascript" src="js/tiles.js"></script>
     </div>
   </div>
-  <img id="map" src="img/map.jpg"/>
 </div>
 
 <!--  Stop add/edit content here. -->
@@ -84,17 +82,6 @@
   <script>
     $(document).foundation();
   </script>
-
-  <script type="text/javascript"> 
-  window.onload = function() {
-  var map = new SpryMap({id : "map",
-                         height: 400,
-                         width: 800,
-                         startX: 200,
-                         startY: 200,
-                         cssClass: "map"});
-  }
-  </script> 
 
 </body>
 </html>
