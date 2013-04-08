@@ -3,39 +3,47 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Grid Artifacts</title>
 
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/central.css" />
-  <link rel="stylesheet" href="css/annie.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/central.css" />
 
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+
+	<script src="js/vendor/custom.modernizr.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  
+	<script>
+		function goToHome()
+		{
+			window.location="home.html";
+		}
+		function goBack()
+		{
+			window.history.back();
+		}
+	</script>
 
 </head>
 <body>
 
 <!--  Add/edit content here. -->
 
+
+
 <div id="screen" class="dontchange">
-  <div class="row">
-    <div class="large-2 columns">
-      <button class="indexButton medium button" onClick="parent.location='add_artifact.html'">Add Artifact</button>
-      <button class="indexButton medium button" onClick="parent.location='action_log.html'">View Action</button>
-      <button class="indexButton medium button" onClick="parent.location='team_gallery.html'">View Teams</button>
-      <button class="indexButton medium button" onClick="parent.location='artifact_list.html'">Artifact Search</button>
-    </div>
-    <div class="large-10 columns">
-      <div id="map">
-        <iframe src=""></iframe>
-      </div>
-    </div>
-  </div>
+	<ul class="breadcrumbs">
+		<li><a href="home.html">Home</a></li>
+  		<li class="current"><a href="add_artifact.html">Grid Artifacts</a></li>
+	</ul>
+
+	<input type="button" class="button" value="Back" onClick="goBack()">
+	<input type="button" class="button" value="Home" onClick="goToHome()">
 </div>
+
 
 <!--  Stop add/edit content here. -->
 

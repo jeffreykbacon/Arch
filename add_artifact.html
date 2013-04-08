@@ -13,7 +13,6 @@
   <link rel="stylesheet" href="css/annie.css" />
 
 
-
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
@@ -32,18 +31,18 @@
         <li class="current"><a href="">Add</a></li>
       </ul>
     </div>
-    <div id="form">
-      <form>
+    <div id="formDiv">
+      <form id="form">
         <div id="left">
-          <input type="text" placeholder="Northing and Easting">
+          <input type="text" id="NandE" placeholder="Northing and Easting">
           <input type="text" placeholder="Datum">
-          <textarea placeholder="Notes"></textarea>
+          <textarea placeholder="Notes" id="notes"></textarea>
           <input type="text" placeholder="Your Name">
           <button class="lightNavButton small button" onClick="parent.location='home.html'">Home</button>
           <button class="lightNavButton small button" onClick="parent.location='home.html'">Back</button>
         </div>
         <div id="right">
-          <input type="text" placeholder="Artifact #">
+          <input type="text" id="artifactNumber" placeholder="Artifact #">
           <select id="customDropdown1" class="medium">
             <option>Artifact Type</option>
             <option>This is an option</option>
