@@ -1,20 +1,11 @@
-#nav {
-	width: 25%;
-	background-color: #BF7C30;
-	height: 768px;
-}
 
 #map {
-	width: 75%;
 	height: 768px;
-	float: right;
 	margin: 0;
 }
 
 .indexButton{
-  width: 70%;
-  margin-right: 15%;
-  margin-left: 15%;
+
   margin-top: 10%;
   background-color: #FFECDE;
   color: black;
@@ -40,12 +31,17 @@
 	background-color: #FFECDE;
 }
 
-#form{
+#screen{
 	background-color: #BF7C30;
+}
+
+#notes{
+	height: 200px;
 }
 
 #left{
 	width: 50%;
+
 }
 #right{
 	width: 50%;
