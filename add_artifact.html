@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/central.css" />
+  <link rel="stylesheet" href="css/annie.css" />
+
 
 
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -24,7 +26,35 @@
 
 
 <div id="screen" class="dontchange">
-    Hello, World!
+    <div id="breadcrumbs">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="">Add</a></li>
+      </ul>
+    </div>
+    <div id="form">
+      <form>
+        <div id="left">
+          <input type="text" placeholder="Northing and Easting">
+          <input type="text" placeholder="Datum">
+          <textarea placeholder="Notes"></textarea>
+          <input type="text" placeholder="Your Name">
+          <button class="lightNavButton small button" onClick="parent.location='index.html'">Home</button>
+          <button class="lightNavButton small button" onClick="parent.location='index.html'">Back</button>
+        </div>
+        <div id="right">
+          <input type="text" placeholder="Artifact #">
+          <select id="customDropdown1" class="medium">
+            <option>Artifact Type</option>
+            <option>This is an option</option>
+            <option>This is another option too</option>
+            <option>Look, a third option</option>
+          </select>
+          <input type="text" placeholder="Datum">
+          <iframe src=""></iframe>
+        </div>
+      </form>
+    </div>
 </div>
 
 

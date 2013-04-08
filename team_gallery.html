@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/normalize.css" />
   <link rel="stylesheet" href="css/foundation.css" />
   <link rel="stylesheet" href="css/central.css" />
+  <link rel="stylesheet" href="css/annie.css" />
 
 
   <script src="js/vendor/custom.modernizr.js"></script>
@@ -24,7 +25,19 @@
 
 
 <div id="screen" class="dontchange">
-    Hello, World!
+    <div id="breadcrumbs">
+      <ul class="breadcrumbs">
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="">Teams</a></li>
+      </ul>
+    </div>
+    <div id="teamstuff">
+      <iframe src="" id="teams"></iframe>
+    </div>
+    <div id="bottomButtons">
+      <button class="navButton small button" onClick="parent.location='index.html'">Home</button>
+      <button class="navButton small button" onClick="parent.location='index.html'">Back</button>
+    </div>
 </div>
 
 
