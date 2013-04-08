@@ -1243,10 +1243,10 @@ button, .button {
   padding-left: 1.5em;
   font-size: 1em;
   background-color: #c79c57;
-  border-color: #b0833b;
+  border-color: #524A42;
   color: white; }
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #b0833b; }
+    background-color: #524A42; }
   button:hover, button:focus, .button:hover, .button:focus {
     color: white; }
   button.secondary, .button.secondary {
@@ -1305,14 +1305,14 @@ button, .button {
     padding-right: 0.75em; }
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
     background-color: #c79c57;
-    border-color: #b0833b;
+    border-color: #524A42;
     color: white;
     cursor: default;
     opacity: 0.6;
     -webkit-box-shadow: none;
     box-shadow: none; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #b0833b; }
+      background-color: #524A42; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
       color: white; }
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
@@ -2426,7 +2426,7 @@ form.custom {
       background: #c79c57;
       font-size: 0.8125em; }
       .top-bar-section ul li > a.button:hover {
-        background: #b0833b; }
+        background: #524A42; }
     .top-bar-section ul li > a.button.secondary {
       background: #d6b885; }
       .top-bar-section ul li > a.button.secondary:hover {
@@ -3097,7 +3097,7 @@ form.custom {
   padding: 0.6875em 1.3125em 0.75em 0.6875em;
   font-size: 0.875em;
   background-color: #c79c57;
-  border-color: #b0833b;
+  border-color: #524A42;
   color: white; }
   .alert-box .close {
     font-size: 1.375em;
@@ -3294,7 +3294,7 @@ kbd {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #b0833b;
+    border-color: #524A42;
     margin-bottom: 1.25em;
     padding: 1.25em;
     background: #c79c57;
