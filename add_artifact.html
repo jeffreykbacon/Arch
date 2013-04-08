@@ -32,36 +32,40 @@
       </ul>
     </div>
     <div id="formDiv" class="row">
-      <form id="form">
         <div class = "large-6 columns">
-          <input type="text" id="NandE" placeholder="Northing and Easting">
-          <input type="text" placeholder="Datum">
-          <textarea placeholder="Notes" id="notes"></textarea>
-          <input type="text" placeholder="Your Name">
+          <form id="form">
+            <input type="text" id="NandE" placeholder="Northing and Easting">
+            <input type="text" placeholder="Datum">
+            <textarea placeholder="Notes" id="notes"></textarea>
+            <input type="text" placeholder="Your Name">
+          </form>
+          <button class="lightNavButton small button" onClick="window.history.back()">Back</button>
+          <button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
         </div>
         <div class="large-6 columns">
-          <div class="row">
-            <div class="large-5 columns">
-              <input type="text" id="artifactNumber" placeholder="Artifact #">
+          <form>
+            <div class="row">
+              <div class="large-5 columns">
+                <input type="text" id="artifactNumber" placeholder="Artifact #">
+              </div>
+              <div class="large-4 columns">
+                <select id="customDropdown1" class="medium">
+                  <option>Artifact Type</option>
+                  <option>This is an option</option>
+                  <option>This is another option too</option>
+                  <option>Look, a third option</option>
+                </select>
+              </div>  
+              <div class="large-3 columns">
+                <button class="lightNavButton small button">Camera</button>
+              </div> 
             </div>
-            <div class="large-4 columns">
-              <select id="customDropdown1" class="medium">
-                <option>Artifact Type</option>
-                <option>This is an option</option>
-                <option>This is another option too</option>
-                <option>Look, a third option</option>
-              </select>
-            </div>  
-            <div class="large-3 columns">
-              <button class="lightNavButton small button">Camera</button>
-            </div>  
-          </div>
-          <input type="text" placeholder="Datum">
-          <iframe src=""></iframe>
+            <input type="text" placeholder="Datum">
+            <iframe src=""></iframe>
+          </form> 
         </div>
-      </form>
-      <button class="lightNavButton small button" onClick="window.history.back()">Back</button>
-      <button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+      
+      
     </div>
 </div>
 
