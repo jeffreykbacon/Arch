@@ -15,6 +15,7 @@
 	<script src="js/vendor/custom.modernizr.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	
 </head>
 <body>
 
@@ -28,8 +29,21 @@
   		<li class="current"><a href="add_artifact.html">Grid Artifacts</a></li>
 	</ul>
 
-	<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
-	<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+	<div id="left">
+		<select id="customDropdown1" class="medium">
+			<option>Filter by Category</option>
+			<option>Pottery</option>
+			<option>Bones</option>
+			<option>Seeds</option>
+			<option>Arrow Heads</option>
+		</select>
+		<input type="text" placeholder="Filter by Keyword">
+		<input type="text" placeholder="Filter by Depth">
+		<input type="text" placeholder="Filter by Researcher">
+		<input type="text" placeholder="Filter by Grid">
+		<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
+		<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+	</div>
 </div>
 
 

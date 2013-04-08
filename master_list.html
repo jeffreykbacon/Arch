@@ -28,9 +28,21 @@
 		<li><a href="home.html">Home</a></li>
   		<li class="current"><a href="add_artifact.html">Artifact List</a></li>
 	</ul>
-
-	<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
-	<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+	
+	<div id="left">
+		<select id="customDropdown1" class="medium">
+			<option>Filter by Category</option>
+			<option>Pottery</option>
+			<option>Bones</option>
+			<option>Seeds</option>
+			<option>Arrow Heads</option>
+		</select>
+		<input type="text" placeholder="Filter by Keyword">
+		<input type="text" placeholder="Filter by Depth">
+		<input type="text" placeholder="Filter by Researcher">
+		<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
+		<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+	</div>
 </div>
 
 
