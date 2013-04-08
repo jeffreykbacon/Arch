@@ -13,6 +13,8 @@
 
 .navButton{
 	background-color: #AC5800;
+	margin-top: 5px;
+	margin-left: 3px;
 }
 .lightNavButton{
 	background-color: #FFECDE;
