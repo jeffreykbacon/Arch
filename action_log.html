@@ -3,18 +3,29 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 <head>
-    <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Action Log</title>
 
-  <link rel="stylesheet" href="css/normalize.css" />
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/central.css" />
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/foundation.css" />
+	<link rel="stylesheet" href="css/central.css" />
 
 
-  <script src="js/vendor/custom.modernizr.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	<script src="js/vendor/custom.modernizr.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+  
+	<script>
+		function goToHome()
+		{
+			window.location="home.html";
+		}
+		function goBack()
+		{
+			window.history.back();
+		}
+	</script>
 
 </head>
 <body>
@@ -24,7 +35,13 @@
 
 
 <div id="screen" class="dontchange">
-    Hello, World!
+	<ul class="breadcrumbs">
+		<li><a href="home.html">Home</a></li>
+  		<li class="current"><a href="add_artifact.html">Action Log</a></li>
+	</ul>
+
+	<input type="button" class="button" value="Back" onClick="goBack()">
+	<input type="button" class="button" value="Home" onClick="goToHome()">
 </div>
 
 
