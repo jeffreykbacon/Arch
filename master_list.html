@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/central.css" />
+	<link rel="stylesheet" href="css/david.css" />
 
 
 	<script src="js/vendor/custom.modernizr.js"></script>
@@ -28,10 +29,42 @@
 		<li><a href="home.html">Home</a></li>
   		<li class="current"><a href="add_artifact.html">Artifact List</a></li>
 	</ul>
-
-	<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
-	<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
-</div>
+	
+	<div class="row">
+		<div id="left">
+			<div class="large-6 columns">
+				<select id="customDropdown1" class="medium">
+					<option>Filter by Category</option>
+					<option>Pottery</option>
+					<option>Bones</option>
+					<option>Seeds</option>
+					<option>Arrow Heads</option>
+				</select>
+				<input type="text" placeholder="Filter by Keyword">
+				<input type="text" placeholder="Filter by Depth">
+				<input type="text" placeholder="Filter by Researcher">
+				<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
+				<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+			</div>
+		</div>
+	
+		<div id="right">
+			<div class="large-6 columns">
+				<DL>
+					<DT><STRONG>Greek Pot</STRONG>
+					<DD>FS# 52 Found by David in Grid 300 N 201 E at a depth of 8 cm
+					<DT><STRONG>Old Spoon</STRONG>
+					<DD>FS# 3421 Found by Murphy in Grid 304 N 202 E at a depth of 7 cm
+					<DT><STRONG>Pot Sherds</STRONG>
+					<DD>FS# 7492 Found by Dr. Olsen?! in Grid 302 N 207 E at a depth of 6 cm
+					<DT><STRONG>Fire Pit</STRONG>
+					<DD>FS# 22 Found by Jeff in Grid 303 N 205 E at a depth of 5 cm
+					<DT><STRONG>Grain Grinding Stone</STRONG>
+					<DD>FS# 83 Found by Jeff in Grid 301 N 200 E at a depth of 4 cm
+					<DT><STRONG>Hamburger</STRONG>
+					<DD>FS# 97 Found by Annie in Grid 305 N 203 E at a depth of 3 cm
+		</div>
+	</div>
 
 
 <!--  Stop add/edit content here. -->

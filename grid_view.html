@@ -10,11 +10,13 @@
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/foundation.css" />
 	<link rel="stylesheet" href="css/central.css" />
+	<link rel="stylesheet" href="css/david.css" />
 
 
 	<script src="js/vendor/custom.modernizr.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	
 </head>
 <body>
 
@@ -28,8 +30,32 @@
   		<li class="current"><a href="add_artifact.html">Grid Artifacts</a></li>
 	</ul>
 
-	<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
-	<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+	<div class="row">
+		<div id="left">
+			<div class="large-6 columns">
+				<select id="customDropdown1" class="medium">
+					<option>Filter by Category</option>
+					<option>Pottery</option>
+					<option>Bones</option>
+					<option>Seeds</option>
+					<option>Arrow Heads</option>
+				</select>
+				<input type="text" placeholder="Filter by Keyword">
+				<input type="text" placeholder="Filter by Depth">
+				<input type="text" placeholder="Filter by Researcher">
+				<input type="text" placeholder="Filter by Grid Location">
+				<button class="lightNavButton small button" onClick="window.history.back()">Back</button>
+				<button class="lightNavButton small button" onClick="window.location='home.html'">Home</button>
+			</div>
+		</div>
+	
+		<div id="right">
+			<div class="large-6 columns">
+				<DL>
+					<DT><STRONG>Greek Pot</STRONG>
+					<DD>FS# 52 Found by David in Grid 300 N 201 E at a depth of 8 cm
+		</div>
+	</div>
 </div>
 
 
