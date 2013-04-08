@@ -2,5 +2,8 @@
 	width: 1024px; 
 	height: 768px;
 	overflow: auto;
-	background: black;
  }
+
+row {
+	margin: 0px;
+}

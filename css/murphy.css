@@ -1,4 +1,21 @@
 #map {
-	background: blue;
-	width: 1024*2/3;
+	background: white;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+.map rect {
+  fill: #fff;
+  fill-opacity: .15;
+  stroke: red;
+  shape-rendering: crispEdges;
+}
+
+.layer rect {
+  fill: #000;
+  fill-opacity: .10;
+  stroke: black;
+  shape-rendering: auto;
+  vector-effect: non-scaling-stroke;
 }
