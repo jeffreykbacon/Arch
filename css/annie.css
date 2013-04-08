@@ -1,0 +1,52 @@
+#nav {
+	width: 25%;
+	background-color: #BF7C30;
+	height: 768px;
+}
+
+#map {
+	width: 75%;
+	height: 768px;
+	float: right;
+	margin: 0;
+}
+
+.indexButton{
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 10%;
+  background-color: #FFECDE;
+  color: black;
+}
+
+.navButton{
+	background-color: #AC5800;
+}
+.lightNavButton{
+	background-color: #FFECDE;
+	color: black;
+}
+
+.breadcrumbs{
+	background-color: #FFECDE;
+}
+
+#teamstuff{
+	width:100%;
+}
+
+#bottomButtons{
+	background-color: #FFECDE;
+}
+
+#form{
+	background-color: #BF7C30;
+}
+
+#left{
+	width: 50%;
+}
+#right{
+	width: 50%;
+}
